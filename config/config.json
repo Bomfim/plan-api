@@ -1,0 +1,22 @@
+{
+  "development": {
+    "username": "plansdb",
+    "password": "Cw5Kv-S9WQV?",
+    "database": "plansdb",
+    "host": "den1.mssql8.gear.host",
+    "dialect": "mssql",
+    "operatorsAliases": {
+      "$and": "Op.and",
+      "$or": "Op.or",
+      "$eq": "Op.eq",
+      "$gt": "Op.gt",
+      "$lt": "Op.lt",
+      "$lte": "Op.lte",
+      "$like": "Op.like"
+    },
+    "dialectOptions": {
+      "encrypt": true,
+      "requestTimeout": 30000
+    }
+  }
+}
